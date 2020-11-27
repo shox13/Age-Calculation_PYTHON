@@ -1,0 +1,7 @@
+def calculate_age(current_year, birth_year):
+  age = current_year - birth_year
+  return age
+
+dad_age = calculate_age(2049,1953) 
+
+print ("My Dad's age is " + str(dad_age) + ".")
